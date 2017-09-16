@@ -11,7 +11,7 @@ license=('GPL3')
 depends=('python2' 'ansible' 'python2-netaddr' 'python2-ldap' 'python2-passlib' 'util-linux' 'encfs' 'gnupg')
 makedepends=('python2-setuptools')
 conflicts=('depops-git')
-source=("https://github.com/$pkgname/$pkgname/archive/v$pkgver.tar.gz")
+source=("https://github.com/$pkgname/debops-tools/archive/v$pkgver.tar.gz")
 sha256sums=('cfc85ebb4249b851d18df2283a781f009460c386bbcc1093da80443a21a1f556')
 
 build() {
